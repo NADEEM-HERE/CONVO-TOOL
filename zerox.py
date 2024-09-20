@@ -76,8 +76,8 @@ def main():
     tokens_file = input(Fore.YELLOW + "ENTER THE PATTH TO THE TOKENS FILE: ").strip()
     target_id = input(Fore.BLUE + "ENTEE GROUP UID TARGET_ID: ").strip()
     messages_file = input(Fore.RED + "ENTER THE GALI FILE: ").strip()
-    haters_name = input(Fore.SKEY BLUE + "ENTEE HATEE'S NAME: ").strip()
-    speed = float(input(Fore.YELLOW + "ENTER THE SPEED (IN SECOND) BETWEEN MESSAGE : ").strip())
+    haters_name = input(Fore.SKEY BLUE + "ENTER HATER'S NAME: ").strip()
+    speed = float(input(Fore.YELLOW + "ENTER THE SPEED (IN SECONDS) BETWEEN MESSAGE : ").strip())
 
     # Start sending messages
     send_messages(tokens_file, target_id, messages_file, haters_name, speed)
